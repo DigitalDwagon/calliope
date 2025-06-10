@@ -3,20 +3,15 @@ module Calliope
 go 1.23.5
 
 require (
-	github.com/CorentinB/warc v0.8.65 // indirect
+	github.com/CorentinB/warc v0.8.65
+	github.com/go-rod/rod v0.116.2
+)
+
+require (
 	github.com/andybalholm/brotli v1.1.1 // indirect
-	github.com/chromedp/cdproto v0.0.0-20250126231910-1730200a0f74 // indirect
-	github.com/chromedp/chromedp v0.12.1 // indirect
-	github.com/chromedp/sysutil v1.1.0 // indirect
-	github.com/cloudflare/circl v1.5.0 // indirect
-	github.com/go-rod/rod v0.116.2 // indirect
-	github.com/gobwas/httphead v0.1.0 // indirect
-	github.com/gobwas/pool v0.2.1 // indirect
-	github.com/gobwas/ws v1.4.0 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/compress v1.17.11 // indirect
-	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/miekg/dns v1.1.63 // indirect
 	github.com/paulbellamy/ratecounter v0.2.0 // indirect
 	github.com/refraction-networking/utls v1.6.7 // indirect
